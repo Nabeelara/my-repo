@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: lightblue;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.navbar {
+  padding: 8px;
+  display: flex;
+  justify-content: space-between;
+  border: lightgray 1px solid;
+  background-color: white;
+}
+
+button {
+  background-color: #EBEBEB;
+  border: 2px solid lightgray;
+  padding: 20px 10px;
+  font-size: larger;
+}
+
+.custom-submit-button {
+  background-color: #1161E5;
+  color: white;
+  margin-top: 15px;
+  padding: 10px 20px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.custom-submit-button:hover {
+  background-color: #F9AD0B; /* Warna saat di-hover */
+}
+
+input {
+  padding: 5px;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
